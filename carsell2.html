@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GadiSagar</title>
+    <link rel="stylesheet" href="carstyle.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div id="menubar" class="fa-solid fa-bars"></div>
+      <a href="#" class="logo">GadiSagar</a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#Vehicles">Vehicles</a>
+        <a href="#Services">Services</a>
+        <a href="#features">Features</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+      <div id="login-btn">
+        <button type="button" class="btn">Login</button>
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </header>
+
+    <div class="login-form-container">
+      <span class="fa-solid fa-xmark" id="close-login-btn"></span>
+      <form action="">
+        <h3>User login</h3>
+        <input type="email" placeholder="Email" class="box" />
+        <input type="password" placeholder="Password" class="box" />
+        <p>Forgot your password <a href="#">click here</a></p>
+        <input type="button" value="Login now" class="btn" />
+        <p>or login with</p>
+        <div class="buttons">
+          <a href="#" class="btn">Google</a>
+          <a href="#" class="btn">Facebook</a>
+        </div>
+        <p>Don't have an account <a>Create one</a></p>
+      </form>
+    </div>
+
+    <section class="home" id="home">
+      <h1 class="home-parallax" data-speed="-2">Find your car</h1>
+      <img
+        class="home-parallax"
+        data-speed="5"
+        src="./carimages/pexels4.jpg"
+        alt=""
+      />
+      <a class="btn home-parallax" data-speed="7" href="#">Explore cars</a>
+    </section>
+    <section>
+      <div class="icon-container">
+        <div class="icon">
+          <i class="fa-solid fa-house"></i>
+          <div class="content">
+            <h3>100+</h3>
+            <p>branches</p>
+          </div>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-car-rear"></i>
+          <div class="content">
+            <h3>3100+</h3>
+            <p>Cars Sold</p>
+          </div>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-users"></i>
+          <div class="content">
+            <h3>500+</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-car-on"></i>
+          <div class="content">
+            <h3>300+</h3>
+            <p>New cars</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vehicle" id="vehicles">
+      <h1 class="heading">Popular<span> Vehicles</span></h1>
+
+      <div class="slider vehicle">
+        <div class="wrapper">
+          <i class="fa-solid fa-angle-left preNext" id="preBtn"></i>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./carimages/car1.jpg"
+                  class="card-img-top"
+                  alt="New Model"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">New Model</h5>
+                  <div class="price">Price: <span>80,00,000</span></div>
+                  <p class="card-text">
+                    <i class="fa-solid fa-circle"></i> 2023
+                    <i class="fa-solid fa-circle"></i> Manual
+                    <i class="fa-solid fa-circle"></i> Petrol
+                    <i class="fa-solid fa-circle"></i> 165mph
+                  </p>
+                  <a href="#" class="btn btn-primary">Check out</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./carimages/car2.jpg"
+                  class="card-img-top"
+                  alt="New Model"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">New Model</h5>
+                  <div class="price">Price: <span>80,00,000</span></div>
+                  <p class="card-text">
+                    <i class="fa-solid fa-circle"></i> 2023
+                    <i class="fa-solid fa-circle"></i> Manual
+                    <i class="fa-solid fa-circle"></i> Petrol
+                    <i class="fa-solid fa-circle"></i> 165mph
+                  </p>
+                  <a href="#" class="btn btn-primary">Check out</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./carimages/car3.jpg"
+                  class="card-img-top"
+                  alt="New Model"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">New Model</h5>
+                  <div class="price">Price: <span>80,00,000</span></div>
+                  <p class="card-text">
+                    <i class="fa-solid fa-circle"></i> 2023
+                    <i class="fa-solid fa-circle"></i> Manual
+                    <i class="fa-solid fa-circle"></i> Petrol
+                    <i class="fa-solid fa-circle"></i> 165mph
+                  </p>
+                  <a href="#" class="btn btn-primary">Check out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>About Us</h5>
+          <p>
+            We are your trusted dealership with a wide selection of new and used
+            cars. Our goal is to deliver the best service and deals in the
+            market.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h5>Popular Models</h5>
+          <ul>
+            <li><a href="#">SUVs</a></li>
+            <li><a href="#">Sedans</a></li>
+            <li><a href="#">Electric Cars</a></li>
+            <li><a href="#">Sports Cars</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contact Us</h5>
+          <p>123 Auto Street, Car City, USA 56789</p>
+          <p>Email: sales@carshop.com</p>
+          <p>Phone: +1 (800) 123-4567</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Follow Us</h5>
+          <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter" /></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom mt-4">
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Site Map</a>
+        </div>
+        <p class="mt-2">&copy; 2024 Car Sales Co. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</html>
